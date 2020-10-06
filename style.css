@@ -14,8 +14,9 @@ h1{
 }
  .links{
     text-decoration: none;
-    font-size: 48px;
-    float: initial;
+    font-size: 200%;
+    float: top;
+    
 }
 .links:hover, .links:active{
   background-color:#fe6f5e;
@@ -28,11 +29,12 @@ table{
     margin-right: auto;
     margin-left: auto;
     margin-top: auto;
-    width: 40%;
+    width: 90%;
 padding: 2em;
 background-color: rgb(255, 255, 255);
+
 }
-figcaption{
+.tab{
   margin-top: 1.3em;
   border: 3px solid black;
   border-radius: 2em;
@@ -85,7 +87,7 @@ input[type=text], select, textarea {
   }
   iframe{
      margin:auto;
-     width: 99%;
+     width: 40%;
      border:2px solid black;
      border-radius: 2em;
   }
